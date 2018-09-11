@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1536675717 source:c:\users\alumno\desktop\strings\clase6\ejvectores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
