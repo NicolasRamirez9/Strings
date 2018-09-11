@@ -26,11 +26,11 @@ int main()
         scanf("%f", &alturas[i]);
     }
 
-    printf("Legajo Nombre Nota Altura \n");
+    printf("%4s %20s %2s %5s \n" , "Legajo" , "Nombre" , "Nota" , "Altura \n");
 
     for(i = 0; i < T; i++)
     {
-        printf("%d %s %d %f \n", legajos[i], nombres[i], notas[i], alturas[i]);
+        printf("%4d %20s %2d %5f \n", legajos[i], nombres[i], notas[i], alturas[i]);
     }
     return 0;
 }
